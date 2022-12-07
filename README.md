@@ -1,5 +1,5 @@
 # Drone-Image-Position
-Determining position of the image captured by a drone using it's parameters namely longitude and latitude which are extracted <br/>
+Determining position of the image captured by a drone using it's parameters namely longitude and latitude which are extracted 
 from the .srt file in which they are embedded as subtitles with their respective time stamp.
 The positions extracted into the DataFrame from the .srt file are plotted using Folium library zoomed to 15 level to overview the location with a 10 pixel radius from the point of interest to ensure focus on the domain of interest.
 The plotted data points not only determine the location of the drone but also help in extracting patterns regarding the flight path of the drone.
